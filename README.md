@@ -1,6 +1,6 @@
 # regtech
-금융감독원 머신리더블 레귤레이션 POC
-데이터 시각화 개발 코드
+금융감독원 머신리더블 레귤레이션 POC</br>
+데이터 시각화 개발 코드 빌드파일
 
 front-end : react.js,html,css,javascript</br>
 back-end : node.js</br>

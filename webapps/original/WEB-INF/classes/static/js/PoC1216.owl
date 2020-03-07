@@ -1,0 +1,4785 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/kwon/ontologies/2019/9/koscom1008"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/kwon/ontologies/2019/9/koscom1008">
+    <Prefix name="" IRI="http://www.semanticweb.org/kwon/ontologies/2019/9/koscom1008"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="obda" IRI="https://w3id.org/obda/vocabulary#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="koscom1008" IRI="http://www.semanticweb.org/kwon/ontologies/2019/9/koscom1008#"/>
+    <Declaration>
+        <Class IRI="#OrganizationMember"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#가맹점"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#감독기관"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#건물"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#경영지도기준"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#경영지도보고서"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#경영지도비율"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#공공기관"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#관리인"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#금융감독원"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#금융감독원장"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#금융기관"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#금융상품"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#금융위원회"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#금융회사"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#기관"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#기업신용평가기관"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#대차대조표"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#대통령령"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#문서"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#민법"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#발행인"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#법"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#법령"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#법인"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#보고서"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#부동산"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#사고"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#상법"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#상환보증보험"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#선불전자지급수단발행및이용현황"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#선불지급수단"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#시행령"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#시행세칙"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#신청업무"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#업무"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#업종"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#유가증권"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#유동성부채대비유동성자산비율"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#은행"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#은행법"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#이용자"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#이용현황"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#자산"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#재무비율"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#재무상태"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#재정증권"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#전자금융사고"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#전자금융업"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#전자금융업자"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#전자적처리업무"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#전자지급거래업무"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#전자지급결제대행업무"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#전자채권"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#전자채권관리기관"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#전자화폐"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#정부"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#조"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#조건"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#주식회사"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#주택저당채권유동화회사"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#중앙은행"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#중앙정부"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#지급수단"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#직불전자지급수단발행및관리업무"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#직불전자지급수단발행및이용현황"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#통안증권"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#특별법"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#항"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#호"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#화폐"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Has보고서"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Has서식"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Has재무비율"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Has재무상태"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Has조"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Has항"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Has호"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#건전경영지도"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#경영"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#등록"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#발행"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#소속"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#예방"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#작성"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#전자거래금융법시행령_제24조"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#전자금융감독규정_제63조1항2호"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#전자금융감독규정_제63조1항3호"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#전자금융감독규정_제63조1항4호"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#전자금융감독규정_제63조1항5호"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#전자금융감독규정_제63조1항6호"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#전자금융감독규정시행세칙_제10조2항"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#전자금융거래"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#전자금융거래법_제28조1항"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#전자금융거래법_제28조2항"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#전자금융거래법_제28조3항"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#전자금융거래법_제29조1항"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#전자금융거래법_제30조1항"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#전자금융거래법_제30조2항1호"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#전자금융거래법_제30조2항2호"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#전자금융거래법_제30조3항1호"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#전자금융거래법_제30조3항2호"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#전자금융거래법_제30조4항"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#지도"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#충족"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#허가"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#FormatName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Guide"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Period"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Rule"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Time"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#UNIT"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dataQueryType"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#url"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#가맹점수"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#가입범위"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#감가상각누계액"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#개발비"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#건물"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#건설중인자산"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#건전성"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#경영건전성"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#고정부채"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#고정자산"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#국고보조금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#금분기전자금융거래총액"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#금융위원회가정한금액"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#금융위원회등록여부"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#금융위원회등록의무"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#금융위원회신고대상"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#금융위원회허가여부"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#기관명"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#기본재산"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#기업합리화적립금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#기준월"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#기타"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#기타고정부채"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#기타무형자산"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#기타유동부채"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#기타유동자산"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#기타유형자산"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#기타자본잉여금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#기타재고자산"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#기타투자자산"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#납입자본금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#내용"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#단기금융상품"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#단기대여금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#단기차입금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#담보"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#당좌자산"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#대손충당금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#대통령령기준가입범위"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#대통령령기준금액"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#대통령령기준범위"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#대통령령으로정하는금액"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#대통령령으로정하는금액_30_2"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#대통령령으로정하는금액_30_3_1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#대통령령으로정하는금액_30_3_2"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#등록"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#등록요건"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#매입채무"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#매출채권"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#무형자산"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#미교부주식배당금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#미상환잔액"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#미상환잔액대비자기자본비율"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#미수금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#미수수익"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#미정산잔액"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#미정산잔액대비투자위험성이낮은자산비율"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#미지급금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#미지급법인세"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#미지급비용"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#발급매수"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#발급형태"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#배당건설이자"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#보증금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#보통주자본금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#부채"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#부채총계"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#비고"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#비율식"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#사채"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#사채할인증발행차금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#산업재산권"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#산정기준"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#상품"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#선급금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#선급법인세"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#선급비용"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#선불전자지급수단"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#선수금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#선수수익"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#수수료"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#시설장치비품"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#신주인수권부사채"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#업무"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#영업권"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#예수금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#우선주자본금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#위치"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#유가증권"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#유가증권평가손익"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#유동부채"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#유동성"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#유동성부채"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#유동성비율"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#유동성자산"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#유동성장기부채"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#유동자산"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#유형자산"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#이연법인세부채"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#이연법인세자산"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#이용건수"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#이용금액"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#이익결손금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#이익잉여금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#이익준비금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#임의적립금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#자기자본"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#자기자본보유기준"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#자기주식처분손실"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#자기주식처분이익"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#자본"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#자본금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#자본잉여금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#자본적정성"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#자본조정"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#자본총계"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#자산"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#자산건전성"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#자산총계"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#작성자성명"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#작성자소속"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#작성자전화번호"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#작성자정보"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#작성자직위"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#작성주기"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#장기금융상품"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#장기대여금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#장기매출채권"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#장기미수금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#장기선급금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#장기선급비용"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#장기이연법인세자산"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#장기차입금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#재고자산"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#재고자산평가충당금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#재무구조개선적립금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#전분기전자금융거래총액"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#전산설비"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#전자화폐발행및관리자격"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#전화번호"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#전환사채"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#제목"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#제출기한"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#조문"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#종류"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#주식매수선택권"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#주식발행초과금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#주식할인발행차금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#주택저당증권"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#지급수단명칭"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#지분법자본변동"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#지분법적용투자주식"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#차기이월이익잉여금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#차량운반구"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#총발행잔액"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#총부채"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#총자산"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#총자산대비투자위험성낮은자산비율"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#최소요구자본금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#최소자본금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#출자총액"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#토지"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#퇴직급여충당금"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#투자부동산"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#투자위험성"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#투자위험성이낮은자산"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#투자유가증권"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#투자자산"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#허가"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#허가1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#허가2"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#현금및현금등가물"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#확인자성명"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#확인자소속"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#확인자전화번호"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#확인자정보"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#확인자지위"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#회사명"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#회원권"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#국민은행"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#기타은행"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#대차대조표_보고서"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#대통령령이정하는전자금융업무"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#대통령령이정하는전자지급결제대행에관한업무"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#민법제32조에서정한회사"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#상법제170조에서정한회사"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#선불전자지급수단의발행및관리업무"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#예금보험공사"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융감독규정"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융감독규정_제63조1항1호"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융감독규정_제63조1항2호"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융감독규정_제63조1항3호"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융감독규정_제63조1항4호"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융감독규정_제63조1항5호"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융감독규정시행령_제17조1항"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융감독규정시행령_제17조2항"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융감독규정시행령_제17조3항"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융감독규정시행령_제17조4항"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융감독규정시행세칙_제10조2항"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융감독규정시행세칙제10조"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융감독규정시행세칙제11조"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융감독규정제63조"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융거래법"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융거래법_제28조1항"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융거래법_제28조2항"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융거래법_제28조3항"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융거래법_제28조4항"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융거래법_제28조5항"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융거래법_제29조1항"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융거래법_제29조2항"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융거래법_제29조3항"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융거래법_제30조1항"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융거래법_제30조2항"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융거래법_제30조3항"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융거래법_제30조4항"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융거래법시행령"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융거래법시행령제17조"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융거래법시행령제24조"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융거래법제28조"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융거래법제29조"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융거래법제30조"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융거래법제42조"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융거래법제63조"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자금융법"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자자금이체업무"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자지급결제대행업무"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자지급결제대행에관한업무"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자지급수단의발행및관리업무"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자채권의등록및관리업무"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자화폐법"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#전자화폐의발행및관리업무"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#제15조제3항제1호업무"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#제15조제3항제2호업무"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#직불전자지급수단의발행및관리업무"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#특별법에따라설립된법인"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#하나은행"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#한국은행"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:ㅤㅤ"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="owl:ㅤ"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#금융기관"/>
+        <Class IRI="#금융회사"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#가맹점"/>
+        <Class IRI="#기관"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#감독기관"/>
+        <Class IRI="#기관"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#건물"/>
+        <Class IRI="#부동산"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#경영지도보고서"/>
+        <Class IRI="#보고서"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#경영지도비율"/>
+        <Class IRI="#재무비율"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#공공기관"/>
+        <Class IRI="#기관"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#관리인"/>
+        <Class IRI="#OrganizationMember"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#금융감독원"/>
+        <Class IRI="#감독기관"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#금융감독원장"/>
+        <Class IRI="#관리인"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#금융기관"/>
+        <Class IRI="#기관"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#금융위원회"/>
+        <Class IRI="#감독기관"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#금융회사"/>
+        <Class IRI="#기관"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#기업신용평가기관"/>
+        <Class IRI="#기관"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#대차대조표"/>
+        <Class IRI="#재무상태"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#대통령령"/>
+        <Class IRI="#법령"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#민법"/>
+        <Class IRI="#법령"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#발행인"/>
+        <Class IRI="#기관"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#법"/>
+        <Class IRI="#법령"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#법인"/>
+        <Class IRI="#기관"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#상법"/>
+        <Class IRI="#법령"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#상환보증보험"/>
+        <Class IRI="#금융상품"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#선불전자지급수단발행및이용현황"/>
+        <Class IRI="#이용현황"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#선불지급수단"/>
+        <Class IRI="#지급수단"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#선불지급수단"/>
+        <Class IRI="#화폐"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#시행령"/>
+        <Class IRI="#법령"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#시행세칙"/>
+        <Class IRI="#법령"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#신청업무"/>
+        <Class IRI="#업무"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#유가증권"/>
+        <Class IRI="#자산"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#유동성부채대비유동성자산비율"/>
+        <Class IRI="#재무비율"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#은행"/>
+        <Class IRI="#금융기관"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#은행법"/>
+        <Class IRI="#법령"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#이용자"/>
+        <Class IRI="#OrganizationMember"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#이용현황"/>
+        <Class IRI="#보고서"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#재무비율"/>
+        <Class IRI="#재무상태"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#재정증권"/>
+        <Class IRI="#자산"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#전자금융사고"/>
+        <Class IRI="#사고"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#전자금융업"/>
+        <Class IRI="#업종"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#전자금융업자"/>
+        <Class IRI="#금융기관"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#전자적처리업무"/>
+        <Class IRI="#업무"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#전자지급거래업무"/>
+        <Class IRI="#업무"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#전자지급결제대행업무"/>
+        <Class IRI="#업무"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#전자채권"/>
+        <Class IRI="#화폐"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#전자채권관리기관"/>
+        <Class IRI="#기관"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#전자화폐"/>
+        <Class IRI="#화폐"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#정부"/>
+        <Class IRI="#기관"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#조"/>
+        <Class IRI="#문서"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#주식회사"/>
+        <Class IRI="#기관"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#주택저당채권유동화회사"/>
+        <Class IRI="#금융회사"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#중앙은행"/>
+        <Class IRI="#금융기관"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#중앙정부"/>
+        <Class IRI="#기관"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#직불전자지급수단발행및관리업무"/>
+        <Class IRI="#업무"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#직불전자지급수단발행및이용현황"/>
+        <Class IRI="#이용현황"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#통안증권"/>
+        <Class IRI="#자산"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#특별법"/>
+        <Class IRI="#법령"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#항"/>
+        <Class IRI="#문서"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#호"/>
+        <Class IRI="#문서"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#금융기관"/>
+        <NamedIndividual IRI="#국민은행"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#금융기관"/>
+        <NamedIndividual IRI="#기타은행"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#보고서"/>
+        <NamedIndividual IRI="#대차대조표_보고서"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#신청업무"/>
+        <NamedIndividual IRI="#대통령령이정하는전자금융업무"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#신청업무"/>
+        <NamedIndividual IRI="#대통령령이정하는전자지급결제대행에관한업무"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#금융회사"/>
+        <NamedIndividual IRI="#민법제32조에서정한회사"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#금융회사"/>
+        <NamedIndividual IRI="#상법제170조에서정한회사"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#신청업무"/>
+        <NamedIndividual IRI="#선불전자지급수단의발행및관리업무"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#공공기관"/>
+        <NamedIndividual IRI="#예금보험공사"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#시행령"/>
+        <NamedIndividual IRI="#전자금융감독규정"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#호"/>
+        <NamedIndividual IRI="#전자금융감독규정_제63조1항1호"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#호"/>
+        <NamedIndividual IRI="#전자금융감독규정_제63조1항2호"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#호"/>
+        <NamedIndividual IRI="#전자금융감독규정_제63조1항3호"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#호"/>
+        <NamedIndividual IRI="#전자금융감독규정_제63조1항4호"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#호"/>
+        <NamedIndividual IRI="#전자금융감독규정_제63조1항5호"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#시행령"/>
+        <NamedIndividual IRI="#전자금융감독규정시행령_제17조1항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#항"/>
+        <NamedIndividual IRI="#전자금융감독규정시행령_제17조1항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#시행령"/>
+        <NamedIndividual IRI="#전자금융감독규정시행령_제17조2항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#항"/>
+        <NamedIndividual IRI="#전자금융감독규정시행령_제17조2항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#시행령"/>
+        <NamedIndividual IRI="#전자금융감독규정시행령_제17조3항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#항"/>
+        <NamedIndividual IRI="#전자금융감독규정시행령_제17조3항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#시행령"/>
+        <NamedIndividual IRI="#전자금융감독규정시행령_제17조4항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#항"/>
+        <NamedIndividual IRI="#전자금융감독규정시행령_제17조4항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#시행세칙"/>
+        <NamedIndividual IRI="#전자금융감독규정시행세칙_제10조2항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#항"/>
+        <NamedIndividual IRI="#전자금융감독규정시행세칙_제10조2항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#조"/>
+        <NamedIndividual IRI="#전자금융감독규정시행세칙제10조"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#조"/>
+        <NamedIndividual IRI="#전자금융감독규정시행세칙제11조"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#조"/>
+        <NamedIndividual IRI="#전자금융감독규정제63조"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#법"/>
+        <NamedIndividual IRI="#전자금융거래법"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#법"/>
+        <NamedIndividual IRI="#전자금융거래법_제28조1항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#항"/>
+        <NamedIndividual IRI="#전자금융거래법_제28조1항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#법"/>
+        <NamedIndividual IRI="#전자금융거래법_제28조2항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#항"/>
+        <NamedIndividual IRI="#전자금융거래법_제28조2항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#법"/>
+        <NamedIndividual IRI="#전자금융거래법_제28조3항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#항"/>
+        <NamedIndividual IRI="#전자금융거래법_제28조3항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#법"/>
+        <NamedIndividual IRI="#전자금융거래법_제28조4항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#항"/>
+        <NamedIndividual IRI="#전자금융거래법_제28조4항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#법"/>
+        <NamedIndividual IRI="#전자금융거래법_제28조5항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#항"/>
+        <NamedIndividual IRI="#전자금융거래법_제28조5항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#법"/>
+        <NamedIndividual IRI="#전자금융거래법_제29조1항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#항"/>
+        <NamedIndividual IRI="#전자금융거래법_제29조1항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#법"/>
+        <NamedIndividual IRI="#전자금융거래법_제29조2항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#항"/>
+        <NamedIndividual IRI="#전자금융거래법_제29조2항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#법"/>
+        <NamedIndividual IRI="#전자금융거래법_제29조3항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#항"/>
+        <NamedIndividual IRI="#전자금융거래법_제29조3항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#법"/>
+        <NamedIndividual IRI="#전자금융거래법_제30조1항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#항"/>
+        <NamedIndividual IRI="#전자금융거래법_제30조1항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#법"/>
+        <NamedIndividual IRI="#전자금융거래법_제30조2항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#항"/>
+        <NamedIndividual IRI="#전자금융거래법_제30조2항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#법"/>
+        <NamedIndividual IRI="#전자금융거래법_제30조3항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#항"/>
+        <NamedIndividual IRI="#전자금융거래법_제30조3항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#법"/>
+        <NamedIndividual IRI="#전자금융거래법_제30조4항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#항"/>
+        <NamedIndividual IRI="#전자금융거래법_제30조4항"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#시행령"/>
+        <NamedIndividual IRI="#전자금융거래법시행령"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#조"/>
+        <NamedIndividual IRI="#전자금융거래법시행령제17조"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#조"/>
+        <NamedIndividual IRI="#전자금융거래법시행령제24조"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#조"/>
+        <NamedIndividual IRI="#전자금융거래법제28조"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#조"/>
+        <NamedIndividual IRI="#전자금융거래법제29조"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#조"/>
+        <NamedIndividual IRI="#전자금융거래법제30조"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#조"/>
+        <NamedIndividual IRI="#전자금융거래법제42조"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#조"/>
+        <NamedIndividual IRI="#전자금융거래법제63조"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#법"/>
+        <NamedIndividual IRI="#전자금융법"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#신청업무"/>
+        <NamedIndividual IRI="#전자자금이체업무"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#신청업무"/>
+        <NamedIndividual IRI="#전자지급결제대행업무"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#신청업무"/>
+        <NamedIndividual IRI="#전자지급결제대행에관한업무"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#신청업무"/>
+        <NamedIndividual IRI="#전자지급수단의발행및관리업무"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#신청업무"/>
+        <NamedIndividual IRI="#전자채권의등록및관리업무"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#법"/>
+        <NamedIndividual IRI="#전자화폐법"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#신청업무"/>
+        <NamedIndividual IRI="#전자화폐의발행및관리업무"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#신청업무"/>
+        <NamedIndividual IRI="#제15조제3항제1호업무"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#신청업무"/>
+        <NamedIndividual IRI="#제15조제3항제2호업무"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#신청업무"/>
+        <NamedIndividual IRI="#직불전자지급수단의발행및관리업무"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#금융회사"/>
+        <NamedIndividual IRI="#특별법에따라설립된법인"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#금융기관"/>
+        <NamedIndividual IRI="#하나은행"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#은행"/>
+        <NamedIndividual IRI="#한국은행"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#내용"/>
+        <NamedIndividual IRI="#전자금융감독규정_제63조1항1호"/>
+        <Literal>법 제30조 및 시행령 제17조에 따른 허가나 등록요건상 최소자본금·출자총액
+또는 기본재산 기준을 항상 충족할 것</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rule"/>
+        <NamedIndividual IRI="#전자금융감독규정_제63조1항2호"/>
+        <Literal>@전자금융감독규정_제63조1항2호@전자금융업자는 항상 @(총자산 - 총부채 )&gt; 0@이어야 @적격여부@가 @TRUE@ 이다.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#내용"/>
+        <NamedIndividual IRI="#전자금융감독규정_제63조1항2호"/>
+        <Literal>총자산에서 총부채를 감한 자기자본이 항상 0을 초과할 것</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rule"/>
+        <NamedIndividual IRI="#전자금융감독규정_제63조1항3호"/>
+        <Literal>@전자금융감독규정_제63조1항3호@전자금융업자는 항상 @(미상환잔액 / 자기자본 &gt; 0.2)@이어야 @적격여부@가 @TRUE@ 이다.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#내용"/>
+        <NamedIndividual IRI="#전자금융감독규정_제63조1항3호"/>
+        <Literal>미상환잔액 대비 자기자본 비율은 100분의 20 이상일 것(전자화폐 및 선불전자지급수단 발행자에 한한다)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rule"/>
+        <NamedIndividual IRI="#전자금융감독규정_제63조1항4호"/>
+        <Literal>@전자금융감독규정_제63조1항4호@전자금융업자가 @(금융위원회등록여부==false)&amp;&amp;((투자위험성낮은자산 /총자산 &gt;= 0.1) ||(미정산잔액 /투자위험성낮은자산 &gt;= 1))@이라면@적격여부@가@TRUE@이다.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#내용"/>
+        <NamedIndividual IRI="#전자금융감독규정_제63조1항4호"/>
+        <Literal>총자산 대비 투자위험성이 낮은 자산의 비율은 100분의 10 이상으로 유지하
+거나 미정산 잔액 대비 투자위험성이 낮은 자산의 비율을 100분의 100 이상
+으로 유지할 것. 단, 법 제28조제1항의 규정에 따라 허가를 받은 전자금융업
+자 및 법 제28조제2항제3호의 규정에 따라 등록을 한 전자금융업자는 제외
+한다. 이 때 투자위험성이 낮은 자산은 별표 6와 같다.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rule"/>
+        <NamedIndividual IRI="#전자금융감독규정_제63조1항5호"/>
+        <Literal>@전자금융감독규정_제63조1항5호@전자금융업자가 @(((신청업무==&quot;전자화폐의발행및관리업무&quot;)&amp;&amp;(금융위원회허가여부==true))&amp;&amp;(유동성비율 &gt;= 0.6))||(((신청업무==&quot;선불전자지급수단의발행및관리업무&quot;)&amp;&amp;(금융위원회허가여부==true))&amp;&amp;(유동성비율 &gt;= 0.5))||((신청업무!=&quot;전자화폐의발행및관리업무&quot;)||(신청업무!=&quot;선불전자지급수단의발행및관리업무&quot;)&amp;&amp;(유동성비율 &gt;= 0.4))@이라면@적격여부@가@TRUE@이다.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#내용"/>
+        <NamedIndividual IRI="#전자금융감독규정_제63조1항5호"/>
+        <Literal>유동성 비율은 다음 각 목과 같이 유지할 것
+가. 법 제28조제1항의 규정에 따라 허가를 받은 전자금융업자 : 100분의 60 이상
+나. 법 제28조제2항제3호의 규정에 따라 등록을 한 전자금융업자 : 100분의 50 이상
+다. 그 밖의 등록대상 전자금융업자 : 100분의 40 이상</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rule"/>
+        <NamedIndividual IRI="#전자금융감독규정시행령_제17조1항"/>
+        <Literal>IF (신청업무 = &quot;전자자금이체업무&quot;) THEN (대통령령으로정하는금액_30_2 = 3000000000)
+IF (신청업무 = &quot;직불전자지급수단의발행및관리업무&quot;) THEN (대통령령으로정하는금액_30_2 = 2000000000)
+IF (신청업무 = &quot;선불전자지급수단의발행및관리업무&quot;) THEN (대통령령으로정하는금액_30_2 = 2000000000)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#내용"/>
+        <NamedIndividual IRI="#전자금융감독규정시행령_제17조1항"/>
+        <Literal>법 제30조제2항 각 호 외의 부분에서 대통령령으로 정하는 금액이란 다음 각 호의 구분에 따른 금액을 말한다.  
+1. 법 제28조제2항제1호의 전자자금이체업무의 경우 : 30억원
+2. 법 제28조제2항제2호의 직불전자지급수단의 발행 및 관리의 경우 : 20억원
+3. 법 제28조제2항제3호의 선불전자지급수단의 발행 및 관리의 경우 : 20억원</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rule"/>
+        <NamedIndividual IRI="#전자금융감독규정시행령_제17조2항"/>
+        <Literal>IF (신청업무 = &quot;전자지급결제대행에관한업무&quot;) THEN (대통령령으로정하는금액_30_3_1 = 300000000)
+IF (신청업무 = &quot;제15조제3항제1호업무&quot;) THEN (대통령령으로정하는금액_30_3_1 = 300000000)
+IF (신청업무 = &quot;제15조제3항제2호업무&quot;) THEN (대통령령으로정하는금액_30_3_1 = 300000000)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#내용"/>
+        <NamedIndividual IRI="#전자금융감독규정시행령_제17조2항"/>
+        <Literal>법 제30조제3항제1호에서 대통령령으로 정하는 금액이란 다음 각 호의 구분에 따른 금액을 말한다.  
+1. 법 제28조제2항제4호의 전자지급결제대행에 관한 업무의 경우: 3억원
+2. 제15조제3항제1호의 업무의 경우: 3억원
+3. 제15조제3항제2호의 업무의 경우: 3억원</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rule"/>
+        <NamedIndividual IRI="#전자금융감독규정시행령_제17조3항"/>
+        <Literal>IF (신청업무 = &quot;전자지급결제대행에관한업무&quot;) THEN (대통령령으로정하는금액_30_3_1 = 1000000000)
+IF (신청업무 = &quot;제15조제3항제1호업무&quot;) THEN (대통령령으로정하는금액_30_3_2 = 1000000000)
+IF (신청업무 = &quot;제15조제3항제2호업무&quot;) THEN (대통령령으로정하는금액_30_3_2 = 500000000)
+IF (신청업무 = &quot;전자채권의등록및관리업무&quot;) THEN (대통령령으로정하는금액_30_3_2 = 3000000000)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#내용"/>
+        <NamedIndividual IRI="#전자금융감독규정시행령_제17조3항"/>
+        <Literal>법 제30조제3항제2호에서 대통령령으로 정하는 금액이란 다음 각 호의 구분에 따른 금액을 말한다.  
+1. 법 제28조제2항제4호의 전자지급결제대행에 관한 업무의 경우 : 10억원
+2. 제15조제3항제1호의 업무의 경우 : 10억원
+3. 제15조제3항제2호의 업무의 경우 : 5억원
+4. 법 제29조의 전자채권의 등록 및 관리업무의 경우 : 30억원</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rule"/>
+        <NamedIndividual IRI="#전자금융감독규정시행령_제17조4항"/>
+        <Literal>IF ((금융위원회허가의무 = TRUE) AND (금융위원회등록의무 = TRUE) AND (대통령령으로정하는금액_30_2 + 대통령령으로정하는금액_30_3_1 + 대통령령으로정하는금액_30_3_2 &lt; 5000000000)) THEN (최소요구자본금 = (대통령령으로정하는금액_30_2 + 대통령령으로정하는금액_30_3_1 + 대통령령으로정하는금액_30_3_2 &lt; 5000000000))
+ELSE IF ((금융위원회허가의무 = TRUE) AND (금융위원회등록의무 = TRUE) AND (대통령령으로정하는금액_30_2 + 대통령령으로정하는금액_30_3_1 + 대통령령으로정하는금액_30_3_2 &gt;= 5000000000)) THEN (최소요구자본금 = 5000000000)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#내용"/>
+        <NamedIndividual IRI="#전자금융감독규정시행령_제17조4항"/>
+        <Literal>법 제28조 및 법 제29조에 따른 업무를 둘 이상 영위하려는 경우에는 제1항부터 제3항까지의 구분에 따른 금액의 합계액을 자본금ㆍ출자총액 또는 기본재산으로 한다. 다만, 그 합계액이 50억원 이상이면 50억원으로 한다.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#내용"/>
+        <NamedIndividual IRI="#전자금융감독규정시행세칙_제10조2항"/>
+        <Literal>업무보고서 양식 및 기재사항은 별지 제1호 서식에 따른다</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#내용"/>
+        <NamedIndividual IRI="#전자금융감독규정시행세칙제11조"/>
+        <Literal>규정 제63조제2항에 따른 경영지도비율의 구체적 산정기준은 별표 6과 같다.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#제목"/>
+        <NamedIndividual IRI="#전자금융감독규정시행세칙제11조"/>
+        <Literal>경영지도비율 산정기준</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#내용"/>
+        <NamedIndividual IRI="#전자금융감독규정제63조"/>
+        <Literal>법 제42조제2항에 따른 구체적인 경영지도 기준은 다음과 같다.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#제목"/>
+        <NamedIndividual IRI="#전자금융감독규정제63조"/>
+        <Literal>전자금융업자 경영지도기준</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rule"/>
+        <NamedIndividual IRI="#전자금융거래법_제28조1항"/>
+        <Literal>@전자금융거래법_제28조1항@ @(신청업무==&quot;전자화폐의발행및관리업무&quot;) @이라면 @금융위원회 허가 의무@가 @TRUE@ 이다.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#내용"/>
+        <NamedIndividual IRI="#전자금융거래법_제28조1항"/>
+        <Literal>전자화폐의 발행 및 관리업무를 행하고자 하는 자는 금융위원회의 허가를 받아야 한다. 다만, 은행법에 따른 은행 그 밖에 대통령령이 정하는 금융회사는 그러하지 아니하다.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rule"/>
+        <NamedIndividual IRI="#전자금융거래법_제28조2항"/>
+        <Literal>@전자금융거래법_제28조2항@ @((신청업무==&quot;전자자금이체업무&quot;) || (신청업무==&quot;직불전자지급수단의발행및관리업무&quot;) || (신청업무==&quot;선불전자지급수단의발행및관리업무&quot;)|| (신청업무==&quot;전자지급결제대행업무&quot;)|| (신청업무==&quot;대통령령이정하는전자금융업무&quot;))@이라면 @금융위원회 등록 의무@가@TRUE@ 이다.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#내용"/>
+        <NamedIndividual IRI="#전자금융거래법_제28조2항"/>
+        <Literal>다음 각 호의 업무를 행하고자 하는 자는 금융위원회에 등록하여야 한다. 다만, 은행법에 따른 은행 그 밖에 대통령령이 정하는 금융회사는 그러하지 아니하다.  
+1. 전자자금이체업무
+2. 직불전자지급수단의 발행 및 관리
+3. 선불전자지급수단의 발행 및 관리
+4. 전자지급결제대행에 관한 업무
+5. 그 밖에 대통령령이 정하는 전자금융업무</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rule"/>
+        <NamedIndividual IRI="#전자금융거래법_제28조3항"/>
+        <Literal>@전자금융거래법_제28조3항@제2항의 규정에 불구하고@((가맹점위치==&quot;대통령령기준범위&quot;) ||(총발행잔액&lt;=대통령령기준금액) ||(가입범위==&quot;대통령령기준가입범위&quot;)||(신청업무==&quot;대통령령이정하는전자지급결제대행에관한업무&quot;))@이라면@금융위원회 등록 의무@가@無@ 이다.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#내용"/>
+        <NamedIndividual IRI="#전자금융거래법_제28조3항"/>
+        <Literal>제2항의 규정에 불구하고 다음 각 호의 어느 하나에 해당하는 자는 금융위원회에 등록하지 아니하고 같은 항 각 호의 업무를 행할 수 있다.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#내용"/>
+        <NamedIndividual IRI="#전자금융거래법_제28조4항"/>
+        <Literal>제3항제1호 다목의 규정에 따라 등록이 면제된 선불전자지급수단을 발행하는 자에 대하여는 제4조, 제2장(제19조는 제외한다) 및 제3장(제21조제4항, 제21조의2, 제21조의3, 제23조 및 제25조는 제외한다), 제37조, 제38조, 제39조제1항ㆍ제6항, 제41조제1항, 제43조제2항ㆍ제3항, 제46조, 제46조의2 및 제47조의 전자금융업자에 관한 규정을 준용한다. 다만, 소속 임직원의 위법ㆍ부당한 행위로 지급불능 상태가 되는 등 대통령령이 정하는 금융사고가 발생하는 경우에는 제25조, 제39조제2항 내지 제5항 및 제40조제2항ㆍ제3항을 준용한다.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#내용"/>
+        <NamedIndividual IRI="#전자금융거래법_제28조5항"/>
+        <Literal>금융위원회는 제1항의 규정에 따른 허가에 조건을 붙일 수 있다.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rule"/>
+        <NamedIndividual IRI="#전자금융거래법_제29조1항"/>
+        <Literal>@전자금융거래법_제29조1항@ @(신청업무==&quot;전자채권의등록및관리업무&quot;)@이라면 @금융위원회 등록 의무@가@有@ 이다.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#내용"/>
+        <NamedIndividual IRI="#전자금융거래법_제29조1항"/>
+        <Literal>전자채권의 등록 및 관리업무를 행하고자 하는 자는 금융위원회에 등록하여야 한다.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#내용"/>
+        <NamedIndividual IRI="#전자금융거래법_제29조2항"/>
+        <Literal>제21조, 제22조, 제39조, 제41조 및 제43조의 규정은 제1항의 규정에 따라 전자채권의 등록 및 관리업무를 행하기 위하여 등록한 전자채권관리기관에 대하여 이를 준용한다.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#내용"/>
+        <NamedIndividual IRI="#전자금융거래법_제29조3항"/>
+        <Literal>전자채권관리기관의 전자채권 등록에 관한 절차와 방법 그 밖에 필요한 사항은 대통령령으로 정한다.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rule"/>
+        <NamedIndividual IRI="#전자금융거래법_제30조1항"/>
+        <Literal>@전자금융거래법_제30조1항@제28조제1항의 규정에 따라 허가를 받고자 하는 자는 주식회사로서 @(자본금 &gt;= 5000000000) @이어야 @전자화폐발행및관리자격@이@有@ 이다.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#내용"/>
+        <NamedIndividual IRI="#전자금융거래법_제30조1항"/>
+        <Literal>제28조제1항의 규정에 따라 허가를 받고자 하는 자는 주식회사로서 자본금이 50억원 이상이어야 한다.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rule"/>
+        <NamedIndividual IRI="#전자금융거래법_제30조2항"/>
+        <Literal>@전자금융거래법_제30조2항1호@ @((신청업무==&quot;전자자금이체업무&quot;)||(신청업무==&quot;직불전자지급수단의발행및관리업무&quot;)||(신청업무==&quot;선불전자지급수단의발행및관리업무&quot;))&amp;&amp;((회사의종류==&quot;합명회사&quot;)||(회사의종류==&quot;합자회사&quot;)||(회사의종류==&quot;유한책임회사&quot;)||(회사의종류==&quot;주식회사&quot;)||(회사의종류==&quot;유한회사&quot;))&amp;&amp;(((자본금 &gt;= 2000000000) &amp;&amp;(자본금 &gt;=대통령령이정한금액_30_2)) ||((출자총액 &gt;= 2000000000) &amp;&amp;(출자총액 &gt;=대통령령이정한금액_30_2) ))@이라면 @해당 신청업무 금융위원회 등록가능여부@가@TRUE@ 이다.
+@전자금융거래법_제30조2항2호@ @((신청업무==&quot;선불전자지급수단의발행및관리업무&quot;)&amp;&amp;((회사의종류==&quot;특별법에따라설립된법인&quot;)&amp;&amp;(((자본금 &gt;= 2000000000) &amp;&amp;(자본금 &gt;=대통령령이정한금액_30_2)) ||((출자총액 &gt;= 2000000000) &amp;&amp;(출자총액 &gt;=대통령령이정한금액_30_2) ))@이라면 @해당 선불전자지급수단의발행및관리업무 금융위원회 등록가능여부@가@TRUE@ 이다.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#내용"/>
+        <NamedIndividual IRI="#전자금융거래법_제30조2항"/>
+        <Literal>제28조제2항제1호부터 제3호까지의 규정에 따라 등록할 수 있는 자는 다음 각 호의 어느 하나에 해당하는 자로 하되, 업무의 종류별로 자본금 또는 출자총액이 20억원 이상으로서 대통령령으로 정하는 금액 이상이어야 한다.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rule"/>
+        <NamedIndividual IRI="#전자금융거래법_제30조3항"/>
+        <Literal>@전자금융거래법_제30조3항1호@ @((신청업무==&quot;전자지급결제대행업무&quot;)||(신청업무==&quot;대통령령이정하는전자금융업무&quot;))&amp;&amp;((회사의종류==&quot;합명회사&quot;)||(회사의종류==&quot;합자회사&quot;)||(회사의종류==&quot;유한책임회사&quot;)||(회사의종류==&quot;주식회사&quot;)||(회사의종류==&quot;유한회사&quot;)||(회사의종류==&quot;비영리법인&quot;))&amp;&amp;((분기별전자금융거래총액&lt;=3000000000)&amp;&amp;(분기별전자금융거래총액&lt;=금융위원회가정한금액)&amp;&amp;(분기별전자금융거래총액 &gt;=300000000)&amp;&amp;(분기별전자금융거래총액 &gt;=대통령령으로정하는금액_30_3_1))@이라면 @해당 신청 업무 금융위원회 등록가능여부@가@TRUE@ 이다.
+@전자금융거래법_제30조3항2호@ @(신청업무==&quot;전자채권의등록및관리업무&quot;)||(((신청업무==&quot;전자지급결제대행업무&quot;)||(신청업무==&quot;대통령령이정하는전자금융업무&quot;))&amp;&amp;((회사의종류==&quot;합명회사&quot;)||(회사의종류==&quot;합자회사&quot;)||(회사의종류==&quot;유한책임회사&quot;)||(회사의종류==&quot;주식회사&quot;)||(회사의종류==&quot;유한회사&quot;)||(회사의종류==&quot;비영리법인&quot;))&amp;&amp;((분기별전자금융거래총액&gt;3000000000)&amp;&amp;(분기별전자금융거래총액&gt;금융위원회가정한금액)&amp;&amp;(분기별전자금융거래총액 &gt;=500000000)&amp;&amp;(분기별전자금융거래총액 &gt;=대통령령으로정하는금액_30_3_2)))@이라면 @해당 신청업무 금융위원회 등록가능여부@가@TRUE@ 이다.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#내용"/>
+        <NamedIndividual IRI="#전자금융거래법_제30조3항"/>
+        <Literal>제28조제2항제4호ㆍ제5호 및 제29조의 규정에 따라 등록할 수 있는 자는 상법제170조에서 정한 회사 또는  민법 제32조에서 정한 법인으로서 업무의 종류별로 자본금 출자총액 또는 기본재산이 다음 각 호의 구분에 따른 금액 이상이어야 한다.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Rule"/>
+        <NamedIndividual IRI="#전자금융거래법_제30조4항"/>
+        <Literal>@전자금융거래법_제30조4항@ @((((신청업무==&quot;전자지급결제대행업무&quot;)||(신청업무==&quot;대통령령이정하는전자금융업무&quot;))&amp;&amp;((회사의종류==&quot;합명회사&quot;)||(회사의종류==&quot;합자회사&quot;)||(회사의종류==&quot;유한책임회사&quot;)||(회사의종류==&quot;주식회사&quot;)||(회사의종류==&quot;유한회사&quot;)||(회사의종류==&quot;비영리법인&quot;))&amp;&amp;((분기별전자금융거래총액&lt;=3000000000)&amp;&amp;(분기별전자금융거래총액&lt;=금융위원회가정한금액)&amp;&amp;(분기별전자금융거래총액 &gt;=300000000)&amp;&amp;(분기별전자금융거래총액&gt;=대통령령으로정하는금액_30_3_1))))&amp;&amp;((전분기전자금융거래총액&gt;금융위원회가정한금액)&amp;&amp;(금분기전자금융거래총액&gt;금융위원회가정한금액))@이라면 @해당 기준 초과자의 금융위원회 신고의무가@가@TRUE@ 이다.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#내용"/>
+        <NamedIndividual IRI="#전자금융거래법_제30조4항"/>
+        <Literal>제3항제1호에 해당하는 자가 제28조에 따라 등록을 한 후 2분기 이상 계속하여 제3항제1호의 금융위원회가 정하는 기준을 초과하는 경우에는 그 내용을 금융위원회에 신고하고 금융위원회가 정하는 기한 내에 제3항제2호에서 정하는 자본금요건을 갖추어야 한다.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#제목"/>
+        <NamedIndividual IRI="#전자금융거래법시행령제17조"/>
+        <Literal>자본금 요건</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#내용"/>
+        <NamedIndividual IRI="#전자금융거래법시행령제24조"/>
+        <Literal>법 제42조제2항에 따른 경영지도의 기준에는 다음 각 호의 사항이 포함되어야 한다.
+1. 법 제28조 또는 법 제29조에 따른 허가 또는 등록의 요건인 자본금의 유지에 관한 사항
+2. 자기자본의 보유기준에 관한 사항
+3. 유동성부채에 대한 유동성자산의 보유기준에 관한 사항
+4. 총자산 대비 투자위험성이 낮은 자산의 비율에 관한 사항(선불전자지급수단의 발행인 및 전자화폐발행자의 경우는 제외한다)
+5. 미상환잔액 대비 자기자본의 비율에 관한 사항(선불전자지급수단의 발행인 및 전자화폐발행자에 한한다)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#제목"/>
+        <NamedIndividual IRI="#전자금융거래법시행령제24조"/>
+        <Literal>경영지도의 기준</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#제목"/>
+        <NamedIndividual IRI="#전자금융거래법제28조"/>
+        <Literal>전자금융업의 허가와 등록</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#제목"/>
+        <NamedIndividual IRI="#전자금융거래법제29조"/>
+        <Literal>전자채권관리기관의 등록</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#제목"/>
+        <NamedIndividual IRI="#전자금융거래법제30조"/>
+        <Literal>자본금</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#내용"/>
+        <NamedIndividual IRI="#전자금융거래법제42조"/>
+        <Literal>②금융위원회는 전자금융거래와 관련한 업무를 수행하는 금융회사 또는 전자금융업자의 건전경영을 지도하고 전자금융사고를 예방하기 위하여 대통령령이 정하는 바에 따라 다음 각 호의 사항에 관한 경영지도기준을 정할 수 있다.
+1. 자본의 적정성에 관한 사항
+2. 자산의 건전성에 관한 사항
+3. 유동성에 관한 사항
+4. 그 밖에 경영의 건전성 확보를 위하여 필요한 사항</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#제목"/>
+        <NamedIndividual IRI="#전자금융거래법제42조"/>
+        <Literal>회계처리 구분 및 건전경영지도</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#제목"/>
+        <NamedIndividual IRI="#전자금융거래법제63조"/>
+        <Literal>자금융업자 경영지도기준</Literal>
+    </DataPropertyAssertion>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="#Has보고서"/>
+        <ObjectProperty IRI="#Has서식"/>
+    </EquivalentObjectProperties>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#건전경영지도"/>
+        <ObjectProperty IRI="#지도"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#등록"/>
+        <ObjectProperty IRI="#허가"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Has보고서"/>
+        <Class IRI="#시행세칙"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Has보고서"/>
+        <Class IRI="#항"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Has서식"/>
+        <Class IRI="#시행세칙"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Has서식"/>
+        <Class IRI="#항"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Has재무비율"/>
+        <Class IRI="#경영지도기준"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Has재무비율"/>
+        <Class IRI="#금융기관"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Has재무상태"/>
+        <Class IRI="#금융기관"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Has재무상태"/>
+        <Class IRI="#금융회사"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Has조"/>
+        <Class IRI="#법령"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Has항"/>
+        <Class IRI="#조"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Has호"/>
+        <Class IRI="#항"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#건전경영지도"/>
+        <Class IRI="#감독기관"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#경영"/>
+        <Class IRI="#기관"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#등록"/>
+        <Class IRI="#금융기관"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#발행"/>
+        <Class IRI="#금융기관"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#소속"/>
+        <Class IRI="#관리인"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#예방"/>
+        <Class IRI="#금융기관"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#작성"/>
+        <Class IRI="#금융기관"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#전자거래금융법시행령_제24조"/>
+        <Class IRI="#조"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#전자금융감독규정_제63조1항2호"/>
+        <Class IRI="#호"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#전자금융감독규정_제63조1항3호"/>
+        <Class IRI="#호"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#전자금융감독규정_제63조1항4호"/>
+        <Class IRI="#호"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#전자금융감독규정_제63조1항5호"/>
+        <Class IRI="#호"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#전자금융감독규정_제63조1항6호"/>
+        <Class IRI="#호"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#전자금융감독규정시행세칙_제10조2항"/>
+        <Class IRI="#항"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#전자금융거래"/>
+        <Class IRI="#금융기관"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#전자금융거래법_제28조1항"/>
+        <Class IRI="#항"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#전자금융거래법_제28조2항"/>
+        <Class IRI="#항"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#전자금융거래법_제28조3항"/>
+        <Class IRI="#항"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#전자금융거래법_제29조1항"/>
+        <Class IRI="#항"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#전자금융거래법_제30조1항"/>
+        <Class IRI="#항"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#전자금융거래법_제30조2항1호"/>
+        <Class IRI="#호"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#전자금융거래법_제30조2항2호"/>
+        <Class IRI="#호"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#전자금융거래법_제30조3항1호"/>
+        <Class IRI="#호"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#전자금융거래법_제30조3항2호"/>
+        <Class IRI="#호"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#전자금융거래법_제30조4항"/>
+        <Class IRI="#항"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#지도"/>
+        <Class IRI="#기관"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#충족"/>
+        <Class IRI="#금융기관"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#허가"/>
+        <Class IRI="#감독기관"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Has보고서"/>
+        <Class IRI="#보고서"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Has서식"/>
+        <Class IRI="#보고서"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Has재무비율"/>
+        <Class IRI="#재무비율"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Has재무상태"/>
+        <Class IRI="#재무상태"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Has조"/>
+        <Class IRI="#조"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Has항"/>
+        <Class IRI="#항"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Has호"/>
+        <Class IRI="#호"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#건전경영지도"/>
+        <Class IRI="#금융기관"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#경영"/>
+        <Class IRI="#기관"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#등록"/>
+        <Class IRI="#감독기관"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#발행"/>
+        <Class IRI="#선불지급수단"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#소속"/>
+        <Class IRI="#기관"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#예방"/>
+        <Class IRI="#전자금융사고"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#작성"/>
+        <Class IRI="#경영지도보고서"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#전자거래금융법시행령_제24조"/>
+        <Class IRI="#조"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#전자금융감독규정_제63조1항2호"/>
+        <Class IRI="#호"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#전자금융감독규정_제63조1항3호"/>
+        <Class IRI="#호"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#전자금융감독규정_제63조1항4호"/>
+        <Class IRI="#호"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#전자금융감독규정_제63조1항5호"/>
+        <Class IRI="#호"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#전자금융감독규정_제63조1항6호"/>
+        <Class IRI="#호"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#전자금융감독규정시행세칙_제10조2항"/>
+        <Class IRI="#시행세칙"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#전자금융감독규정시행세칙_제10조2항"/>
+        <Class IRI="#항"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#전자금융거래"/>
+        <Class IRI="#금융기관"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#전자금융거래법_제28조1항"/>
+        <Class IRI="#항"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#전자금융거래법_제28조2항"/>
+        <Class IRI="#항"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#전자금융거래법_제28조3항"/>
+        <Class IRI="#항"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#전자금융거래법_제29조1항"/>
+        <Class IRI="#항"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#전자금융거래법_제30조1항"/>
+        <Class IRI="#항"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#전자금융거래법_제30조2항1호"/>
+        <Class IRI="#호"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#전자금융거래법_제30조2항2호"/>
+        <Class IRI="#호"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#전자금융거래법_제30조3항1호"/>
+        <Class IRI="#호"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#전자금융거래법_제30조3항2호"/>
+        <Class IRI="#호"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#전자금융거래법_제30조4항"/>
+        <Class IRI="#항"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#지도"/>
+        <Class IRI="#기관"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#충족"/>
+        <Class IRI="#경영지도기준"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#허가"/>
+        <Class IRI="#금융기관"/>
+    </ObjectPropertyRange>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#Period"/>
+        <DataProperty IRI="#작성주기"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#기관명"/>
+        <DataProperty IRI="#회사명"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#부채총계"/>
+        <DataProperty IRI="#총부채"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#유동부채"/>
+        <DataProperty IRI="#유동성부채"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#자기자본"/>
+        <DataProperty IRI="#자본금"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#자기자본"/>
+        <DataProperty IRI="#자본총계"/>
+    </EquivalentDataProperties>
+    <EquivalentDataProperties>
+        <DataProperty IRI="#자본금"/>
+        <DataProperty IRI="#자본총계"/>
+    </EquivalentDataProperties>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#가맹점수"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#감가상각누계액"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#개발비"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#건물"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#건설중인자산"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#경영건전성"/>
+        <DataProperty IRI="#건전성"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#고정부채"/>
+        <DataProperty IRI="#부채"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#고정자산"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#국고보조금"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#금분기전자금융거래총액"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#금융위원회가정한금액"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#금융위원회등록의무"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#금융위원회신고대상"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#기업합리화적립금"/>
+        <DataProperty IRI="#자본"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#기타"/>
+        <DataProperty IRI="#자본"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#기타고정부채"/>
+        <DataProperty IRI="#부채"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#기타무형자산"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#기타유동부채"/>
+        <DataProperty IRI="#부채"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#기타유동자산"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#기타유형자산"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#기타자본잉여금"/>
+        <DataProperty IRI="#자본"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#기타재고자산"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#기타투자자산"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#납입자본금"/>
+        <DataProperty IRI="#자본"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#단기금융상품"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#단기대여금"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#단기차입금"/>
+        <DataProperty IRI="#부채"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#담보"/>
+        <DataProperty IRI="#부채"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#당좌자산"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#대손충당금"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#대통령령기준가입범위"/>
+        <DataProperty IRI="#가입범위"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#대통령령기준금액"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#대통령령기준범위"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#대통령령으로정하는금액"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#대통령령으로정하는금액_30_2"/>
+        <DataProperty IRI="#대통령령으로정하는금액"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#대통령령으로정하는금액_30_3_1"/>
+        <DataProperty IRI="#대통령령으로정하는금액"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#대통령령으로정하는금액_30_3_2"/>
+        <DataProperty IRI="#대통령령으로정하는금액"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#등록"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#매입채무"/>
+        <DataProperty IRI="#부채"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#매출채권"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#무형자산"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#미교부주식배당금"/>
+        <DataProperty IRI="#자본"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#미상환잔액"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#미상환잔액대비자기자본비율"/>
+        <DataProperty IRI="#비율식"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#미수금"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#미수수익"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#미정산잔액"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#미정산잔액대비투자위험성이낮은자산비율"/>
+        <DataProperty IRI="#비율식"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#미지급금"/>
+        <DataProperty IRI="#부채"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#미지급법인세"/>
+        <DataProperty IRI="#부채"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#미지급비용"/>
+        <DataProperty IRI="#부채"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#발급매수"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#발급형태"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#배당건설이자"/>
+        <DataProperty IRI="#자본"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#보증금"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#보통주자본금"/>
+        <DataProperty IRI="#자본"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#부채"/>
+        <DataProperty IRI="#부채총계"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#부채총계"/>
+        <DataProperty IRI="#부채"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#비고"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#사채"/>
+        <DataProperty IRI="#부채"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#사채할인증발행차금"/>
+        <DataProperty IRI="#부채"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#산업재산권"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#산정기준"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#상품"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#선급금"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#선급법인세"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#선급비용"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#선수금"/>
+        <DataProperty IRI="#부채"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#선수수익"/>
+        <DataProperty IRI="#부채"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#시설장치비품"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#신주인수권부사채"/>
+        <DataProperty IRI="#부채"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#영업권"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#예수금"/>
+        <DataProperty IRI="#부채"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#우선주자본금"/>
+        <DataProperty IRI="#자본"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#위치"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#유가증권"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#유가증권평가손익"/>
+        <DataProperty IRI="#자본"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#유동부채"/>
+        <DataProperty IRI="#부채"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#유동성부채"/>
+        <DataProperty IRI="#부채"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#유동성비율"/>
+        <DataProperty IRI="#비율식"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#유동성자산"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#유동성장기부채"/>
+        <DataProperty IRI="#부채"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#유동자산"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#유형자산"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#이연법인세부채"/>
+        <DataProperty IRI="#부채"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#이연법인세자산"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#이용건수"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#이용금액"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#이익결손금"/>
+        <DataProperty IRI="#자본"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#이익잉여금"/>
+        <DataProperty IRI="#자본"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#이익준비금"/>
+        <DataProperty IRI="#자본"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#임의적립금"/>
+        <DataProperty IRI="#자본"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#자기자본"/>
+        <DataProperty IRI="#자본"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#자기주식처분손실"/>
+        <DataProperty IRI="#자본"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#자기주식처분이익"/>
+        <DataProperty IRI="#자본"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#자본"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#자본금"/>
+        <DataProperty IRI="#자본"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#자본잉여금"/>
+        <DataProperty IRI="#자본"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#자본적정성"/>
+        <DataProperty IRI="#자본"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#자본조정"/>
+        <DataProperty IRI="#자본"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#자본총계"/>
+        <DataProperty IRI="#자본"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#자산"/>
+        <DataProperty IRI="#미수수익"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#자산"/>
+        <DataProperty IRI="#투자유가증권"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#자산건전성"/>
+        <DataProperty IRI="#건전성"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#자산총계"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#작성자성명"/>
+        <DataProperty IRI="#작성자정보"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#작성자소속"/>
+        <DataProperty IRI="#작성자정보"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#작성자전화번호"/>
+        <DataProperty IRI="#작성자정보"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#작성자직위"/>
+        <DataProperty IRI="#작성자정보"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#작성주기"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#장기금융상품"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#장기대여금"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#장기매출채권"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#장기미수금"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#장기선급금"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#장기선급비용"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#장기이연법인세자산"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#장기차입금"/>
+        <DataProperty IRI="#부채"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#재고자산"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#재고자산평가충당금"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#재무구조개선적립금"/>
+        <DataProperty IRI="#자본"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#전분기전자금융거래총액"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#전산설비"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#전자화폐발행및관리자격"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#전환사채"/>
+        <DataProperty IRI="#부채"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#주식매수선택권"/>
+        <DataProperty IRI="#자본"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#주식발행초과금"/>
+        <DataProperty IRI="#자본"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#주식할인발행차금"/>
+        <DataProperty IRI="#자본"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#주택저당증권"/>
+        <DataProperty IRI="#부채"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#지급수단명칭"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#지분법자본변동"/>
+        <DataProperty IRI="#자본"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#지분법적용투자주식"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#차기이월이익잉여금"/>
+        <DataProperty IRI="#자본"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#차량운반구"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#총발행잔액"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#총부채"/>
+        <DataProperty IRI="#부채"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#총자산"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#총자산대비투자위험성낮은자산비율"/>
+        <DataProperty IRI="#비율식"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#최소요구자본금"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#최소자본금"/>
+        <DataProperty IRI="#자본"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#토지"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#퇴직급여충당금"/>
+        <DataProperty IRI="#부채"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#투자부동산"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#투자위험성이낮은자산"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#투자유가증권"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#투자자산"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#허가"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#허가1"/>
+        <DataProperty IRI="#허가"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#허가2"/>
+        <DataProperty IRI="#허가"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#현금및현금등가물"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#확인자성명"/>
+        <DataProperty IRI="#확인자정보"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#확인자소속"/>
+        <DataProperty IRI="#확인자정보"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#확인자전화번호"/>
+        <DataProperty IRI="#확인자정보"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#확인자지위"/>
+        <DataProperty IRI="#확인자정보"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#회원권"/>
+        <DataProperty IRI="#자산"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#FormatName"/>
+        <Class IRI="#재무상태"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Guide"/>
+        <Class IRI="#재무상태"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Period"/>
+        <Class IRI="#보고서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Period"/>
+        <Class IRI="#재무상태"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Rule"/>
+        <Class IRI="#문서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Rule"/>
+        <Class IRI="#보고서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Rule"/>
+        <Class IRI="#재무상태"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Time"/>
+        <Class IRI="#보고서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Time"/>
+        <Class IRI="#재무상태"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#UNIT"/>
+        <Class IRI="#재무상태"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dataQueryType"/>
+        <Class IRI="#재무상태"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#url"/>
+        <Class IRI="#재무상태"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#가맹점수"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#가맹점수"/>
+        <Class IRI="#선불전자지급수단발행및이용현황"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#가맹점수"/>
+        <Class IRI="#이용현황"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#가맹점수"/>
+        <Class IRI="#직불전자지급수단발행및이용현황"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#가입범위"/>
+        <Class IRI="#조건"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#감가상각누계액"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#개발비"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#건물"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#건설중인자산"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#건전성"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#경영건전성"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#고정부채"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#고정자산"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#국고보조금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#금분기전자금융거래총액"/>
+        <Class IRI="#재무상태"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#금융위원회가정한금액"/>
+        <Class IRI="#조건"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#금융위원회등록여부"/>
+        <Class IRI="#기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#금융위원회등록의무"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#금융위원회신고대상"/>
+        <Class IRI="#조건"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#금융위원회허가여부"/>
+        <Class IRI="#기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#기관명"/>
+        <Class IRI="#기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#기본재산"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#기업합리화적립금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#기준월"/>
+        <Class IRI="#보고서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#기타"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#기타고정부채"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#기타무형자산"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#기타유동부채"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#기타유동자산"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#기타유형자산"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#기타자본잉여금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#기타재고자산"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#기타투자자산"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#납입자본금"/>
+        <Class IRI="#경영지도보고서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#납입자본금"/>
+        <Class IRI="#재무상태"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#내용"/>
+        <Class IRI="#문서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#단기금융상품"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#단기대여금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#단기차입금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#담보"/>
+        <Class IRI="#재무상태"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#당좌자산"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#대손충당금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#대통령령기준가입범위"/>
+        <Class IRI="#조건"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#대통령령기준금액"/>
+        <Class IRI="#조건"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#대통령령기준범위"/>
+        <Class IRI="#조건"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#대통령령으로정하는금액"/>
+        <Class IRI="#재무상태"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#대통령령으로정하는금액_30_2"/>
+        <Class IRI="#재무상태"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#대통령령으로정하는금액_30_3_1"/>
+        <Class IRI="#재무상태"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#대통령령으로정하는금액_30_3_2"/>
+        <Class IRI="#재무상태"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#등록"/>
+        <Class IRI="#신청업무"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#등록요건"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#매입채무"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#매출채권"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#무형자산"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#미교부주식배당금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#미상환잔액"/>
+        <Class IRI="#경영지도보고서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#미상환잔액"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#미상환잔액"/>
+        <Class IRI="#선불전자지급수단발행및이용현황"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#미상환잔액대비자기자본비율"/>
+        <Class IRI="#경영지도보고서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#미상환잔액대비자기자본비율"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#미수금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#미수수익"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#미정산잔액"/>
+        <Class IRI="#경영지도보고서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#미정산잔액"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#미정산잔액대비투자위험성이낮은자산비율"/>
+        <Class IRI="#경영지도보고서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#미정산잔액대비투자위험성이낮은자산비율"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#미지급금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#미지급법인세"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#미지급비용"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#발급매수"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#발급매수"/>
+        <Class IRI="#선불전자지급수단발행및이용현황"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#발급매수"/>
+        <Class IRI="#이용현황"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#발급매수"/>
+        <Class IRI="#직불전자지급수단발행및이용현황"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#발급형태"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#발급형태"/>
+        <Class IRI="#선불전자지급수단발행및이용현황"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#발급형태"/>
+        <Class IRI="#이용현황"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#배당건설이자"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#보증금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#보통주자본금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#부채"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#부채총계"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#비고"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#비고"/>
+        <Class IRI="#선불전자지급수단발행및이용현황"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#비고"/>
+        <Class IRI="#이용현황"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#비고"/>
+        <Class IRI="#직불전자지급수단발행및이용현황"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#비율식"/>
+        <Class IRI="#재무비율"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#사채"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#사채할인증발행차금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#산업재산권"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#산정기준"/>
+        <Class IRI="#경영지도비율"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#산정기준"/>
+        <Class IRI="#재무비율"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#상품"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#선급금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#선급법인세"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#선급비용"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#선불전자지급수단"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#선수금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#선수수익"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#수수료"/>
+        <Class IRI="#직불전자지급수단발행및이용현황"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#시설장치비품"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#신주인수권부사채"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#업무"/>
+        <Class IRI="#기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#영업권"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#예수금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#우선주자본금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#위치"/>
+        <Class IRI="#기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#유가증권"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#유가증권평가손익"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#유동부채"/>
+        <Class IRI="#경영지도보고서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#유동부채"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#유동성"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#유동성부채"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#유동성비율"/>
+        <Class IRI="#경영지도보고서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#유동성비율"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#유동성자산"/>
+        <Class IRI="#재무상태"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#유동성장기부채"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#유동자산"/>
+        <Class IRI="#경영지도보고서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#유동자산"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#유형자산"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#이연법인세부채"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#이연법인세자산"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#이용건수"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#이용건수"/>
+        <Class IRI="#선불전자지급수단발행및이용현황"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#이용건수"/>
+        <Class IRI="#이용현황"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#이용건수"/>
+        <Class IRI="#직불전자지급수단발행및이용현황"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#이용금액"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#이용금액"/>
+        <Class IRI="#선불전자지급수단발행및이용현황"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#이용금액"/>
+        <Class IRI="#이용현황"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#이용금액"/>
+        <Class IRI="#직불전자지급수단발행및이용현황"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#이익결손금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#이익잉여금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#이익준비금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#임의적립금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#자기자본"/>
+        <Class IRI="#경영지도보고서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#자기자본"/>
+        <Class IRI="#재무상태"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#자기자본보유기준"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#자기주식처분손실"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#자기주식처분이익"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#자본"/>
+        <Class IRI="#재무상태"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#자본금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#자본잉여금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#자본적정성"/>
+        <Class IRI="#재무상태"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#자본조정"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#자본총계"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#자산"/>
+        <Class IRI="#재무상태"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#자산건전성"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#자산총계"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#작성자성명"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#작성자성명"/>
+        <Class IRI="#보고서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#작성자소속"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#작성자소속"/>
+        <Class IRI="#보고서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#작성자전화번호"/>
+        <Class IRI="#보고서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#작성자정보"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#작성자정보"/>
+        <Class IRI="#보고서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#작성자직위"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#작성자직위"/>
+        <Class IRI="#보고서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#작성주기"/>
+        <Class IRI="#보고서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#장기금융상품"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#장기대여금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#장기매출채권"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#장기미수금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#장기선급금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#장기선급비용"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#장기이연법인세자산"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#장기차입금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#재고자산"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#재고자산평가충당금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#재무구조개선적립금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#전분기전자금융거래총액"/>
+        <Class IRI="#재무상태"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#전산설비"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#전자화폐발행및관리자격"/>
+        <Class IRI="#기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#전화번호"/>
+        <Class IRI="#기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#전환사채"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#제목"/>
+        <Class IRI="#문서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#제출기한"/>
+        <Class IRI="#보고서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#제출기한"/>
+        <Class IRI="#재무상태"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#조문"/>
+        <Class IRI="#법령"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#종류"/>
+        <Class IRI="#기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#주식매수선택권"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#주식발행초과금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#주식할인발행차금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#주택저당증권"/>
+        <Class IRI="#재무상태"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#지급수단명칭"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#지급수단명칭"/>
+        <Class IRI="#선불전자지급수단발행및이용현황"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#지급수단명칭"/>
+        <Class IRI="#이용현황"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#지분법자본변동"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#지분법적용투자주식"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#차기이월이익잉여금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#차량운반구"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#총발행잔액"/>
+        <Class IRI="#재무상태"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#총부채"/>
+        <Class IRI="#경영지도보고서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#총부채"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#총자산"/>
+        <Class IRI="#경영지도보고서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#총자산"/>
+        <Class IRI="#재무상태"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#총자산대비투자위험성낮은자산비율"/>
+        <Class IRI="#경영지도보고서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#총자산대비투자위험성낮은자산비율"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#최소요구자본금"/>
+        <Class IRI="#조건"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#최소자본금"/>
+        <Class IRI="#재무상태"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#출자총액"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#토지"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#퇴직급여충당금"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#투자부동산"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#투자위험성"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#투자위험성이낮은자산"/>
+        <Class IRI="#경영지도보고서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#투자위험성이낮은자산"/>
+        <Class IRI="#금융기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#투자위험성이낮은자산"/>
+        <Class IRI="#재무상태"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#투자유가증권"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#투자자산"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#허가"/>
+        <Class IRI="#신청업무"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#허가1"/>
+        <Class IRI="#신청업무"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#허가2"/>
+        <Class IRI="#신청업무"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#현금및현금등가물"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#확인자성명"/>
+        <Class IRI="#감독기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#확인자성명"/>
+        <Class IRI="#보고서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#확인자소속"/>
+        <Class IRI="#감독기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#확인자소속"/>
+        <Class IRI="#보고서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#확인자전화번호"/>
+        <Class IRI="#감독기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#확인자전화번호"/>
+        <Class IRI="#보고서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#확인자정보"/>
+        <Class IRI="#감독기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#확인자정보"/>
+        <Class IRI="#보고서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#확인자지위"/>
+        <Class IRI="#감독기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#확인자지위"/>
+        <Class IRI="#보고서"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#회사명"/>
+        <Class IRI="#기관"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#회원권"/>
+        <Class IRI="#대차대조표"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#FormatName"/>
+        <Datatype abbreviatedIRI="xsd:ㅤㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Guide"/>
+        <Datatype abbreviatedIRI="xsd:ㅤㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Period"/>
+        <Datatype abbreviatedIRI="xsd:ㅤㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Rule"/>
+        <Datatype abbreviatedIRI="xsd:ㅤㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Time"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#UNIT"/>
+        <Datatype abbreviatedIRI="xsd:ㅤㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dataQueryType"/>
+        <Datatype abbreviatedIRI="xsd:ㅤㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#url"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#가맹점수"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#가입범위"/>
+        <Datatype abbreviatedIRI="xsd:ㅤㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#감가상각누계액"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#개발비"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#건물"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#건설중인자산"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#건전성"/>
+        <Datatype abbreviatedIRI="owl:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#경영건전성"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#고정부채"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#고정자산"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#국고보조금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#금분기전자금융거래총액"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#금융위원회가정한금액"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#금융위원회등록여부"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#금융위원회등록의무"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#금융위원회신고대상"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#금융위원회허가여부"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#기관명"/>
+        <Datatype abbreviatedIRI="xsd:ㅤㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#기본재산"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#기업합리화적립금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#기준월"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#기타"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#기타고정부채"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#기타무형자산"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#기타유동부채"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#기타유동자산"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#기타유형자산"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#기타자본잉여금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#기타재고자산"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#기타투자자산"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#납입자본금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#내용"/>
+        <Datatype abbreviatedIRI="xsd:ㅤㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#단기금융상품"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#단기대여금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#단기차입금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#담보"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#당좌자산"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#대손충당금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#대통령령기준가입범위"/>
+        <Datatype abbreviatedIRI="xsd:ㅤㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#대통령령기준금액"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#대통령령기준범위"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#대통령령으로정하는금액"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#대통령령으로정하는금액_30_2"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#대통령령으로정하는금액_30_3_1"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#대통령령으로정하는금액_30_3_2"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#등록"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#등록요건"/>
+        <Datatype abbreviatedIRI="xsd:ㅤㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#매입채무"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#매출채권"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#무형자산"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#미교부주식배당금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#미상환잔액"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#미상환잔액대비자기자본비율"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#미수금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#미수수익"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#미정산잔액"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#미정산잔액대비투자위험성이낮은자산비율"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#미지급금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#미지급법인세"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#미지급비용"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#발급매수"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#발급형태"/>
+        <Datatype abbreviatedIRI="xsd:ㅤㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#배당건설이자"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#보증금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#보통주자본금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#부채"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#부채총계"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#비고"/>
+        <Datatype abbreviatedIRI="xsd:ㅤㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#비율식"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#사채"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#사채할인증발행차금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#산업재산권"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#산정기준"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#상품"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#선급금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#선급법인세"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#선급비용"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#선불전자지급수단"/>
+        <Datatype abbreviatedIRI="owl:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#선수금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#선수수익"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#수수료"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#시설장치비품"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#신주인수권부사채"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#업무"/>
+        <Datatype abbreviatedIRI="owl:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#영업권"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#예수금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#우선주자본금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#위치"/>
+        <Datatype abbreviatedIRI="owl:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#유가증권"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#유가증권평가손익"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#유동부채"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#유동성"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#유동성부채"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#유동성비율"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#유동성자산"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#유동성장기부채"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#유동자산"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#유형자산"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#이연법인세부채"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#이연법인세자산"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#이용건수"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#이용금액"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#이익결손금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#이익잉여금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#이익준비금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#임의적립금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#자기자본"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#자기자본보유기준"/>
+        <Datatype abbreviatedIRI="xsd:ㅤㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#자기주식처분손실"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#자기주식처분이익"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#자본"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#자본금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#자본잉여금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#자본적정성"/>
+        <Datatype abbreviatedIRI="owl:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#자본조정"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#자본총계"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#자산"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#자산건전성"/>
+        <Datatype abbreviatedIRI="owl:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#자산총계"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#작성자성명"/>
+        <Datatype abbreviatedIRI="owl:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#작성자전화번호"/>
+        <Datatype abbreviatedIRI="xsd:ㅤㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#작성자정보"/>
+        <Datatype abbreviatedIRI="xsd:ㅤㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#작성주기"/>
+        <Datatype abbreviatedIRI="xsd:ㅤㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#장기금융상품"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#장기대여금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#장기매출채권"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#장기미수금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#장기선급금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#장기선급비용"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#장기이연법인세자산"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#장기차입금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#재고자산"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#재고자산평가충당금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#재무구조개선적립금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#전분기전자금융거래총액"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#전산설비"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#전자화폐발행및관리자격"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#전화번호"/>
+        <Datatype abbreviatedIRI="xsd:ㅤㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#전환사채"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#제목"/>
+        <Datatype abbreviatedIRI="xsd:ㅤㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#제출기한"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#조문"/>
+        <Datatype abbreviatedIRI="xsd:ㅤㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#종류"/>
+        <Datatype abbreviatedIRI="xsd:ㅤㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#주식매수선택권"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#주식발행초과금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#주식할인발행차금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#주택저당증권"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#지급수단명칭"/>
+        <Datatype abbreviatedIRI="xsd:ㅤㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#지분법자본변동"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#지분법적용투자주식"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#차기이월이익잉여금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#차량운반구"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#총발행잔액"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#총부채"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#총자산"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#총자산대비투자위험성낮은자산비율"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#최소요구자본금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#최소자본금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#출자총액"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#토지"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#퇴직급여충당금"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#투자부동산"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#투자위험성"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#투자위험성이낮은자산"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#투자유가증권"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#투자자산"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#허가"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#허가1"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#허가2"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#현금및현금등가물"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#확인자성명"/>
+        <Datatype abbreviatedIRI="xsd:ㅤㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#확인자소속"/>
+        <Datatype abbreviatedIRI="xsd:ㅤㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#확인자전화번호"/>
+        <Datatype abbreviatedIRI="xsd:ㅤㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#확인자정보"/>
+        <Datatype abbreviatedIRI="xsd:ㅤㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#확인자지위"/>
+        <Datatype abbreviatedIRI="xsd:ㅤㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#회사명"/>
+        <Datatype abbreviatedIRI="xsd:ㅤㅤ"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#회원권"/>
+        <Datatype abbreviatedIRI="xsd:ㅤ"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#OrganizationMember</IRI>
+        <Literal>개인</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#경영지도보고서</IRI>
+        <Literal>IF (보고서 = &quot;대차대조표&quot;) THEN (url = “/api/finance/getbalancesheet” AND Period = “6” AND formatName = “basic[base;previous];” AND dataQueryType = “POINT” AND UNIT = &quot;원&quot;)
+IF (보고서 = &quot;경영지도기준보고서&quot;) THEN (url = “/api/finance/getmanagementguide” AND Period = “6” AND formatName = “two_layers[basic;previous;difference]” AND dataQueryType = “POINT” AND UNIT = &quot;원, %&quot;)
+IF (보고서 = &quot;선불전자지급수단발행및이용현황&quot;&quot;) THEN (url = “/api/finance/getprepaidissue” AND Period = “3” AND formatName = “basic[group]” AND dataQueryType = “RANGE” AND UNIT = &quot;건, 원&quot;)
+IF (보고서 = &quot;직불전자지급수단발행및이용현황&quot;&quot;) THEN (url = “/api/finance/getdebitissue” AND Period = “3” AND formatName = “basic” AND dataQueryType = “RANGE” AND UNIT = &quot;건, 원, 개&quot;)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#경영지도보고서</IRI>
+        <Literal>작성요령
+1) 제출대상
+ 납입자본금 : 모든 전자금융업
+ 자기자본 : 모든 전자금융업
+4-2. 미정산 잔액대비 투자위험성이 낮은 자산 비율
+ 미정산 잔액 대비 투자위험성이 낮은 자산 비율 : 모든 전자금융업 (전자화폐업, 선불전자지급수단 발행 및 관리업 제
+ 유동성 비율 : 모든 전자금융업
+2) 납입자본금, 총자산, 총부채, 자기자본, 유동자산, 유동부채는 [대차대조표] 업무보고서 내 해당 항목과 일치해야 함
+3) 미상환잔액은 [선불전자지급수단 발행 및 이용현황] 업무보고서 내 해당 항목과 일치해야 함
+4) 투자위험성이 낮은 자산은 [투자위험성이 낮은 자산 현황] 업무보고서 내 해당 항목과 일치해야 함
+ 미상환잔액 대비 자기자본 비율 : 전자화폐업, 선불전자지급수단 발행 및 관리업
+4-1. 총자산 대비투자위험성이 낮은 자산 비율
+5. 유동성 비율
+ 총자산 대비 투자위험성이 낮은 자산 비율 : 모든 전자금융업 (전자화폐업, 선불전자지급수단 발행 및 관리업 제외)
+ 유동성 비율 : 모든 전자금융업
+2) 납입자본금, 총자산, 총부채, 자기자본, 유동자산, 유동부채는 [대차대조표] 업무보고서 내 해당 항목과 일치해야 함</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#금융기관</IRI>
+        <Literal></Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#대차대조표</IRI>
+        <Literal>N/A</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#미상환잔액</IRI>
+        <Literal>MUST(항상(미상환잔액 / 자기자본 &gt; 0.2))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#미정산잔액</IRI>
+        <Literal>MUST(EXCEPT(전자금융업자)((투자위험성낮은자산 ÷ 총자산 &gt; 0.1) OR (미정산잔액 ÷ 투자위험성낮은자산 &gt; 1)))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#보고서</IRI>
+        <Literal>IF (보고서 = &quot;대차대조표&quot;) THEN (url = “/api/finance/getbalancesheet” AND Period = “6” AND formatName = “basic[base;previous];” AND dataQueryType = “POINT” AND UNIT = &quot;원&quot;)
+IF (보고서 = &quot;경영지도기준보고서&quot;) THEN (url = “/api/finance/getmanagementguide” AND Period = “6” AND formatName = “two_layers[basic;previous;difference]” AND dataQueryType = “POINT” AND UNIT = &quot;원, %&quot;)
+IF (보고서 = &quot;선불전자지급수단발행및이용현황&quot;) THEN (url = “/api/finance/getprepaidissue” AND Period = “3” AND formatName = “basic[group]” AND dataQueryType = “RANGE” AND UNIT = &quot;건, 원&quot;)
+IF (보고서 = &quot;직불전자지급수단발행및이용현황&quot;) THEN (url = “/api/finance/getdebitissue” AND Period = “3” AND formatName = “basic” AND dataQueryType = “RANGE” AND UNIT = &quot;건, 원, 개&quot;)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#선불전자지급수단발행및이용현황</IRI>
+        <Literal>작성요령
+1) 발급매수와 발급잔액은 분기말 기준
+2) 이용건수와 이용금액은 분기중 누적액으로 기재
+3) 무기명식 전자화폐는 판매가맹점에 배포된 경우 발급된 것으로 간주</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#유동부채</IRI>
+        <Literal>MUST(항상(유동부채 / 유동자산 &gt; 0.6))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#유동성비율</IRI>
+        <Literal>(IF (전자금융업자(UNDER(제28조_1항)) MUST(항상(유동성비율 &gt; 0.6)))
+ELSE IF (전자금융업자(UNDER(제28조_2항_3호)) MUST(항상(유동성비율 &gt; 0.5)))
+ELSE MUST(항상(유동성비율 &gt; 0.4))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#유동자산</IRI>
+        <Literal>MUST(항상(유동부채 / 유동자산 &gt; 0.6))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#자기자본</IRI>
+        <Literal>MUST(항상(미상환잔액 / 자기자본 &gt; 0.2))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#재무상태</IRI>
+        <Literal>FinancialPosition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#전자거래금융법시행령_제24조</IRI>
+        <Literal>제24조(경영지도의 기준) 법 제42조제2항에 따른 경영지도의 기준에는 다음 각 호의 사항이 포함되어야 한다. &lt;개정 2012. 5. 7.&gt;
+1. 법 제28조 또는 법 제29조에 따른 허가 또는 등록의 요건인 자본금의 유지에 관한 사항
+2. 자기자본의 보유기준에 관한 사항
+3. 유동성부채에 대한 유동성자산의 보유기준에 관한 사항
+4. 총자산 대비 투자위험성이 낮은 자산의 비율에 관한 사항(선불전자지급수단의 발행인 및 전자화폐발행자의 경우는 제외한다)
+5. 미상환잔액 대비 자기자본의 비율에 관한 사항(선불전자지급수단의 발행인 및 전자화폐발행자에 한한다)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#전자금융감독규정_제63조1항2호</IRI>
+        <Literal>@전자금융감독규정_제63조1항2호@전자금융업자는 항상 @(총자산 - 총부채 )&gt; 0@이어야 @적격여부@가 @TRUE@ 이다.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#전자금융감독규정_제63조1항3호</IRI>
+        <Literal>@전자금융감독규정_제63조1항3호@전자금융업자는 항상 @(미상환잔액 / 자기자본 &amp;gt; 0.2)@이어야 @적격여부@가 @TRUE@ 이다</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#전자금융감독규정_제63조1항4호</IRI>
+        <Literal>@전자금융감독규정_제63조1항4호@전자금융업자가 @(금융위원회등록여부==false)&amp;&amp;((투자위험성낮은자산 /총자산 &gt;= 0.1) ||( 투자위험성낮은자산/미정산잔액 &gt;= 1))@이라면@적격여부@가@TRUE@이다.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#전자금융감독규정_제63조1항5호</IRI>
+        <Literal>@전자금융감독규정_제63조1항5호@전자금융업자가 @(((신청업무==&quot;전자화폐의발행및관리업무&quot;)&amp;&amp;(금융위원회허가여부==true))&amp;&amp;(유동성비율 &gt;= 0.6))||(((신청업무==&quot;선불전자지급수단의발행및관리업무&quot;)&amp;&amp;(금융위원회허가여부==true))&amp;&amp;(유동성비율 &gt;= 0.5))||(((신청업무!=&quot;전자화폐의발행및관리업무&quot;)||(신청업무!=&quot;선불전자지급수단의발행및관리업무&quot;))&amp;&amp;(유동성비율 &gt;= 0.4))@이라면@적격여부@가@TRUE@이다.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#전자금융감독규정_제63조1항6호</IRI>
+        <Literal>@전자거래금융법시행령_제63조1항6호@ 전자금융업자가 항상 @(자기자본 &gt; 납입자본금)@ 이면 @적격여부@가 @TRUE@이다</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#전자금융감독규정시행세칙_제10조2항</IRI>
+        <Literal>내용 &quot;업무보고서 양식 및 기재사항은 별지 제1호 서식에 따른다&quot;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#전자금융거래법_제28조1항</IRI>
+        <Literal>@전자금융거래법_제28조1항@ @(신청업무==&quot;전자화폐의발행및관리업무&quot;)
+@이라면 @금융위원회 허가 의무@가
+@有@ 이다.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#전자금융거래법_제28조2항</IRI>
+        <Literal>@전자금융거래법_제28조2항@ @((신청업무==&quot;전자자금이체업무&quot;) || (신청업무==&quot;직불전자지급수단의발행및관리업무&quot;) || (신청업무==&quot;선불전자지급수단의발행및관리업무&quot;)|| (신청업무==&quot;전자지급결제대행업무&quot;)|| (신청업무==&quot;대통령령이정하는전자금융업무&quot;))@이라면 @금융위원회 등록 의무@가
+@有@ 이다.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#전자금융거래법_제28조3항</IRI>
+        <Literal>@전자금융거래법_제28조3항@제2항의 규정에 불구하고 @((가맹점위치 ==&quot;대통령령기준범위&quot;) || (총발행잔액&lt;=대통령령기준금액) || (가입범위==&quot;대통령령기준가입범위&quot;)|| (신청업무==&quot;대통령령이정하는전자지급결제대행에관한업무&quot;))@이라면 @금융위원회 등록 의무@가@無@ 이다.호</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#전자금융거래법_제29조1항</IRI>
+        <Literal>@전자금융거래법_제29조1항@ @(신청업무==&quot;전자채권의등록및관리업무&quot;)@이라면 @금융위원회 등록 의무@가@有@ 이다.호</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#전자금융거래법_제30조1항</IRI>
+        <Literal>@전자금융거래법_제30조1항@제28조제1항의 규정에 따라 허가를 받고자 하는 자는 주식회사로서 @(자본금 &gt;= 5000000000) @이어야 @전자화폐발행및관리자격@이@有@ 이다.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#전자금융거래법_제30조2항1호</IRI>
+        <Literal>@전자금융거래법_제30조3항2호@ @(신청업무==&quot;전자채권의등록및관리업무&quot;)||(((신청업무==&quot;전자지급결제대행업무&quot;)||(신청업무==&quot;대통령령이정하는전자금융업무&quot;))&amp;&amp;((회사의종류==&quot;합명회사&quot;)||(회사의종류==&quot;합자회사&quot;)||(회사의종류==&quot;유한책임회사&quot;)||(회사의종류==&quot;주식회사&quot;)||(회사의종류==&quot;유한회사&quot;)||(회사의종류==&quot;비영리법인&quot;))&amp;&amp;((분기별전자금융거래총액&lt;=3000000000)&amp;&amp;(분기별전자금융거래총액&lt;=금융위원회가정한금액)&amp;&amp;(분기별전자금융거래총액 &gt;=500000000)&amp;&amp;(분기별전자금융거래총액 &gt;=대통령령이정한금액_30_3_2)))@이라면 @해당 신청업무 금융위원회 등록가능여부@가@TRUE@ 이다.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#전자금융거래법_제30조2항2호</IRI>
+        <Literal>@전자금융거래법_제30조2항2호@ @((신청업무==&quot;선불전자지급수단의발행및관리업무&quot;)&amp;&amp;((회사의종류==&quot;특별법에따라설립된법인&quot;)&amp;&amp;(((자본금 &gt;= 2000000000) &amp;&amp;(자본금 &gt;=대통령령이정한금액_30_2)) ||((출자총액 &gt;= 2000000000) &amp;&amp;(출자총액 &gt;=대통령령이정한금액_30_2) ))))@이라면 @해당 선불전자지급수단의발행및관리업무 금융위원회 등록가능여부@가@TRUE@ 이다.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#전자금융거래법_제30조3항1호</IRI>
+        <Literal>@전자금융거래법_제30조3항1호@ @(((신청업무==&quot;전자지급결제대행업무&quot;)||(신청업무==&quot;대통령령이정하는전자금융업무&quot;))&amp;&amp;((회사의종류==&quot;합명회사&quot;)||(회사의종류==&quot;합자회사&quot;)||(회사의종류==&quot;유한책임회사&quot;)||(회사의종류==&quot;주식회사&quot;)||(회사의종류==&quot;유한회사&quot;)||(회사의종류==&quot;비영리법인&quot;))&amp;&amp;((분기별전자금융거래총액&lt;=3000000000)&amp;&amp;(분기별전자금융거래총액&lt;=금융위원회가정한금액)&amp;&amp;(분기별전자금융거래총액 &gt;=300000000)&amp;&amp;(분기별전자금융거래총액 &gt;=대통령령이정한금액_30_3_1)))@이라면 @해당 신청 업무 금융위원회 등록가능여부@가@TRUE@ 이다.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#전자금융거래법_제30조3항2호</IRI>
+        <Literal>@전자금융거래법_제30조3항2호@ @(신청업무==&quot;전자채권의등록및관리업무&quot;)||(((신청업무==&quot;전자지급결제대행업무&quot;)||(신청업무==&quot;대통령령이정하는전자금융업무&quot;))&amp;&amp;((회사의종류==&quot;합명회사&quot;)||(회사의종류==&quot;합자회사&quot;)||(회사의종류==&quot;유한책임회사&quot;)||(회사의종류==&quot;주식회사&quot;)||(회사의종류==&quot;유한회사&quot;)||(회사의종류==&quot;비영리법인&quot;))&amp;&amp;((분기별전자금융거래총액&lt;=3000000000)&amp;&amp;(분기별전자금융거래총액&lt;=금융위원회가정한금액)&amp;&amp;(분기별전자금융거래총액 &gt;=500000000)&amp;&amp;(분기별전자금융거래총액 &gt;=대통령령이정한금액_30_3_2)))@이라면 @해당 신청업무 금융위원회 등록가능여부@가@TRUE@ 이다.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#전자금융거래법_제30조4항</IRI>
+        <Literal>@전자금융거래법_제30조4항@ @((((신청업무==&quot;전자지급결제대행업무&quot;)||(신청업무==&quot;대통령령이정하는전자금융업무&quot;))&amp;&amp;((회사의종류==&quot;합명회사&quot;)||(회사의종류==&quot;합자회사&quot;)||(회사의종류==&quot;유한책임회사&quot;)||(회사의종류==&quot;주식회사&quot;)||(회사의종류==&quot;유한회사&quot;)||(회사의종류==&quot;비영리법인&quot;))&amp;&amp;((분기별전자금융거래총액&lt;=3000000000)&amp;&amp;(분기별전자금융거래총액&lt;=금융위원회가정한금액)&amp;&amp;(분기별전자금융거래총액 &gt;=300000000)&amp;&amp;(분기별전자금융거래총액&gt;=대통령령이정한금액_30_3_1))))&amp;&amp;((전분기전자금융거래총액&gt;금융위원회가정한금액)&amp;&amp;(금분기전자금융거래총액&gt;금융위원회가정한금액))@이라면 @해당 기준 초과자의 금융위원회 신고의무가@가@TRUE@ 이다.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#전자금융업자</IRI>
+        <Literal>MUST(SOME(전자금융업자(UNDER(제28조_1항)))(유동성비율 &gt; 0.6))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#직불전자지급수단발행및이용현황</IRI>
+        <Literal>작성요령
+1) 발급매수와 발급잔액은 분기말 기준
+2) 이용건수와 이용금액은 분기중 누적액으로 기재
+3) 무기명식 전자화폐는 판매가맹점에 배포된 경우 발급된 것으로 간주</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#총부채</IRI>
+        <AnonymousIndividual nodeID="_:genid2147483649"/>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#총자산</IRI>
+        <Literal>MUST(ALL(총자산 - 총부채 &gt; 0))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#총자산</IRI>
+        <Literal>MUST(EXCEPT(전자금융업자)((투자위험성낮은자산 / 총자산 &gt; 0.1) OR (미정산잔액 / 투자위험성낮은자산 &gt; 1)))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#투자위험성</IRI>
+        <Literal>MUST(항상(미정산잔액 / 투자위험성 &gt; 1))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#투자위험성이낮은자산</IRI>
+        <Literal>MUST(EXCEPT(전자금융업자)((투자위험성낮은자산 / 총자산 &gt; 0.1) OR (미정산잔액 / 투자위험성낮은자산 &gt; 1)))</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnonymousIndividual nodeID="_:genid2147483649"/>
+        <Literal>MUST(ALL(총자산 - 총부채 &gt; 0))</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

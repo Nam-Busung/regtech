@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/csv_maker/static/css/main.5916d63e.chunk.css",
+    "main.js": "/csv_maker/static/js/main.0a6329b7.chunk.js",
+    "main.js.map": "/csv_maker/static/js/main.0a6329b7.chunk.js.map",
+    "runtime~main.js": "/csv_maker/static/js/runtime~main.1b17a5ed.js",
+    "runtime~main.js.map": "/csv_maker/static/js/runtime~main.1b17a5ed.js.map",
+    "static/css/2.11f871ab.chunk.css": "/csv_maker/static/css/2.11f871ab.chunk.css",
+    "static/js/2.5980e9ff.chunk.js": "/csv_maker/static/js/2.5980e9ff.chunk.js",
+    "static/js/2.5980e9ff.chunk.js.map": "/csv_maker/static/js/2.5980e9ff.chunk.js.map",
+    "index.html": "/csv_maker/index.html",
+    "precache-manifest.e7d650f7692bcea66bdad578fc61158a.js": "/csv_maker/precache-manifest.e7d650f7692bcea66bdad578fc61158a.js",
+    "service-worker.js": "/csv_maker/service-worker.js",
+    "static/css/2.11f871ab.chunk.css.map": "/csv_maker/static/css/2.11f871ab.chunk.css.map",
+    "static/css/main.5916d63e.chunk.css.map": "/csv_maker/static/css/main.5916d63e.chunk.css.map"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/owl_web/static/css/main.2c839c49.chunk.css",
+    "main.js": "/owl_web/static/js/main.10d46fce.chunk.js",
+    "main.js.map": "/owl_web/static/js/main.10d46fce.chunk.js.map",
+    "runtime-main.js": "/owl_web/static/js/runtime-main.f830d053.js",
+    "runtime-main.js.map": "/owl_web/static/js/runtime-main.f830d053.js.map",
+    "static/js/2.7a2cd020.chunk.js": "/owl_web/static/js/2.7a2cd020.chunk.js",
+    "static/js/2.7a2cd020.chunk.js.map": "/owl_web/static/js/2.7a2cd020.chunk.js.map",
+    "index.html": "/owl_web/index.html",
+    "precache-manifest.0c61888c66cc983493c3829903e0b37a.js": "/owl_web/precache-manifest.0c61888c66cc983493c3829903e0b37a.js",
+    "service-worker.js": "/owl_web/service-worker.js",
+    "static/css/main.2c839c49.chunk.css.map": "/owl_web/static/css/main.2c839c49.chunk.css.map",
+    "static/media/style.css": "/owl_web/static/media/world-map.26e4662e.png",
+    "static/media/pe-icon-7-stroke.css": "/owl_web/static/media/Pe-icon-7-stroke.e7f3ad7b.svg",
+    "static/media/help.png": "/owl_web/static/media/help.5466e709.png",
+    "static/media/tree.png": "/owl_web/static/media/tree.f535a5f8.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f830d053.js",
+    "static/js/2.7a2cd020.chunk.js",
+    "static/css/main.2c839c49.chunk.css",
+    "static/js/main.10d46fce.chunk.js"
+  ]
+}
